@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9517d22105121b2dfd6f022edab44b98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d13e21dc2f1549523974dd6509c6390\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b06ab64c93f5f3b3366091bd33899daa\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\a685a0f042ee31c042774dedfb0dee66\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f10b652cbe940a346c188b1280daab0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b75fff5a3febd585a54a98870eeaeb00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4587e47abf318bc06e39f66a0cd32bbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa98db61fa739c4db470f7f79d911621\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f59f6a35689af709ae55e7e5ffd600f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\80bedf389944bbbc5f356e678f0d4d82\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\39d615ba0dfc6bcdeed7f662290f869f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\433118e7e52206cbfcccde74850afa78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\30b77594f456afa86c85686e6689b76f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b237e3d4fa662c3941582d01c05d3b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f6d45065e38c37fd1808e8bae13fccb3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\920ff617c326fb38b6fbfe32ec3c7845\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0e720d7b7dde698967ead228c04f410b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd5e2cfe8e3d700bcabddfd8719bf105\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:7:5-36:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b06ab64c93f5f3b3366091bd33899daa\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b06ab64c93f5f3b3366091bd33899daa\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\a685a0f042ee31c042774dedfb0dee66\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\a685a0f042ee31c042774dedfb0dee66\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:13:9-40
+activity#wivertechnology.com.ordersystem_client.activities.main.MainActivity
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:15:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:21:27-74
+activity#wivertechnology.com.ordersystem_client.models.account.AccountModels
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:24:9-27:59
+	android:label
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:26:13-66
+	android:theme
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:25:13-57
+activity#wivertechnology.com.ordersystem_client.activities.main.LoginActivity
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:28:9-31:59
+	android:label
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:30:13-66
+	android:theme
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:29:13-58
+activity#wivertechnology.com.ordersystem_client.activities.main.ProductActivity
+ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:32:9-35:68
+	android:label
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:34:13-59
+	android:theme
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml:33:13-60
+uses-sdk
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9517d22105121b2dfd6f022edab44b98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\9517d22105121b2dfd6f022edab44b98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d13e21dc2f1549523974dd6509c6390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d13e21dc2f1549523974dd6509c6390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b06ab64c93f5f3b3366091bd33899daa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b06ab64c93f5f3b3366091bd33899daa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\a685a0f042ee31c042774dedfb0dee66\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\a685a0f042ee31c042774dedfb0dee66\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f10b652cbe940a346c188b1280daab0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f10b652cbe940a346c188b1280daab0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b75fff5a3febd585a54a98870eeaeb00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b75fff5a3febd585a54a98870eeaeb00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4587e47abf318bc06e39f66a0cd32bbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4587e47abf318bc06e39f66a0cd32bbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa98db61fa739c4db470f7f79d911621\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa98db61fa739c4db470f7f79d911621\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f59f6a35689af709ae55e7e5ffd600f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f59f6a35689af709ae55e7e5ffd600f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\80bedf389944bbbc5f356e678f0d4d82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\80bedf389944bbbc5f356e678f0d4d82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\39d615ba0dfc6bcdeed7f662290f869f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\39d615ba0dfc6bcdeed7f662290f869f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\433118e7e52206cbfcccde74850afa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\433118e7e52206cbfcccde74850afa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\30b77594f456afa86c85686e6689b76f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\30b77594f456afa86c85686e6689b76f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b237e3d4fa662c3941582d01c05d3b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b237e3d4fa662c3941582d01c05d3b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f6d45065e38c37fd1808e8bae13fccb3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f6d45065e38c37fd1808e8bae13fccb3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\920ff617c326fb38b6fbfe32ec3c7845\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\920ff617c326fb38b6fbfe32ec3c7845\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0e720d7b7dde698967ead228c04f410b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0e720d7b7dde698967ead228c04f410b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd5e2cfe8e3d700bcabddfd8719bf105\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Acro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd5e2cfe8e3d700bcabddfd8719bf105\AndroidManifest.xml:20:5-44
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\2019\OrderSystem_Client\app\src\main\AndroidManifest.xml

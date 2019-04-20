@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wivertechnology.com.ordersystem_client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="wivertechnology.com.ordersystem_client.activities.main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wivertechnology.com.ordersystem_client.models.account.AccountModels"
+            android:label="@string/title_activity_account_models"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="wivertechnology.com.ordersystem_client.activities.main.LoginActivity"
+            android:label="@string/title_activity_account_models"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="wivertechnology.com.ordersystem_client.activities.main.ProductActivity"
+            android:label="@string/title_activity_product"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

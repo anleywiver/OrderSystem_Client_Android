@@ -1,33 +1,299 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    android:background="@color/main_color_grey_100"
+    tools:ignore="RtlHardcoded">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="match_parent"
+            app:title="Name"
+            android:fitsSystemWindows="true"
+            app:expandedTitleMarginBottom="96dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?colorPrimary"
+            app:titleEnabled="false"
+            app:expandedTitleMarginStart="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#e0e0df"
+                app:layout_collapseMode="pin"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/home.ic"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/list"
+                        tools:listitem="@layout/list_item_home_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+                    <TextView
+                        app:layout_collapseMode="pin"
+                        android:textColor="@color/accent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SCA"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        app:layout_collapseMode="pin"
+                        android:textColor="@color/accent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stock Center Affiliate"
+                        android:textSize="12sp"
+                        android:textAllCaps="true"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/home.logout"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_action_logout"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:behavior_overlapTop="20dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/home.website"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:onClick="true"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="3dp"
+                    app:cardMaxElevation="3dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="OnClick">
+
+                    <RelativeLayout
+                        android:padding="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+                        <ImageView
+                            android:layout_centerVertical="true"
+                            android:id="@+id/img.v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_laptop_mac_black_48dp"/>
+                        <LinearLayout
+                            android:layout_toRightOf="@+id/img.v"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textSize="9pt"
+                                android:textColor="@color/main_color_grey_900"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Website Backend SCA"/>
+
+                            <TextView
+                                android:textSize="5pt"
+                                android:textColor="@color/main_color_grey_600"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Backend aplikasi SCA untuk lebih detail"/>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/b.b"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/home.website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/home.help"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:onClick="true"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="3dp"
+                        app:cardMaxElevation="3dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:padding="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white">
+                            <ImageView
+                                android:layout_centerVertical="true"
+                                android:id="@+id/img.a"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_help_black_96dp"/>
+                            <LinearLayout
+                                android:layout_toRightOf="@+id/img.a"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="8pt"
+                                    android:textColor="@color/main_color_grey_900"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bantuan"/>
+
+                                <TextView
+                                    android:textSize="4pt"
+                                    android:textColor="@color/main_color_grey_600"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bingung menggunakan aplikasi, coba cek di sini"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/home.feedback"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:onClick="true"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="3dp"
+                        app:cardMaxElevation="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white">
+                            <ImageView
+                                android:id="@+id/img.b"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_feedback_black_48dp"/>
+                            <LinearLayout
+                                android:layout_toRightOf="@+id/img.b"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="8pt"
+                                    android:textColor="@color/main_color_grey_900"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Umpan Balik"/>
+
+                                <TextView
+                                    android:textSize="4pt"
+                                    android:textColor="@color/main_color_grey_600"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Masukan Anda terhadap aplikasi sangat membantu"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_below="@+id/b.b"
+                    android:layout_margin="27dp"
+                    android:textSize="8pt"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="copyright"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.cspro.stockcenteraffiliate.helpers.LoopViewPager
+        android:id="@+id/viewpager"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:fitsSystemWindows="true"
+        app:layout_collapseMode="parallax" />
+
 
 </android.support.design.widget.CoordinatorLayout>
